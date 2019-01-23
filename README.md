@@ -1,6 +1,6 @@
 HH Toolbox
-===================
 ----
+
 # Distributions
 
 This package allows you to draw random numbers from a given distribution (normal, poisson or binomial) through a function (random_numbers_from_dist) or a Class (RandomNumbers).
