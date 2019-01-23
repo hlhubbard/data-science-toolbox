@@ -21,17 +21,17 @@ from hh_toolbox import distributions
 #### Example inputs
 ```python
 #Normal distribution
-random_numbers_from_dist(size=1000, dist_type='Normal', mean=1, stdev=0.1)
+distributions.random_numbers_from_dist(size=1000, dist_type='Normal', mean=1, stdev=0.1)
 ```
 
 ```python
 #Poisson distribution
-random_numbers_from_dist(size=1000, dist_type='poisson', p_lambda=1)
+distributions.random_numbers_from_dist(size=1000, dist_type='poisson', p_lambda=1)
 ```
 
 ```python
 #Binomial distribution
-random_numbers_from_dist(size=1000, dist_type='binomial', n_trials=1, prob=0.5)
+distributions.random_numbers_from_dist(size=1000, dist_type='binomial', n_trials=1, prob=0.5)
 ```
 
 ### Class RandomNumbers
