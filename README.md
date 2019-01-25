@@ -8,7 +8,8 @@ This package allows you to draw random numbers from a given distribution (normal
 ### Installation
 
 ```
-$ pip install data_science_toolbox
+$ git clone git@github.com:hlhubbard/data_science_toolbox.git
+$ pip install data_science_toolbox/
 ```
 
 ```
@@ -21,17 +22,17 @@ from hh_toolbox import distributions
 #### Example inputs
 ```python
 #Normal distribution
-distributions.random_numbers_from_dist(size=1000, dist_type='Normal', mean=1, stdev=0.1)
+random_numbers_from_dist(size=1000, dist_type='Normal', mean=1, stdev=0.1)
 ```
 
 ```python
 #Poisson distribution
-distributions.random_numbers_from_dist(size=1000, dist_type='poisson', p_lambda=1)
+random_numbers_from_dist(size=1000, dist_type='poisson', p_lambda=1)
 ```
 
 ```python
 #Binomial distribution
-distributions.random_numbers_from_dist(size=1000, dist_type='binomial', n_trials=1, prob=0.5)
+random_numbers_from_dist(size=1000, dist_type='binomial', n_trials=1, prob=0.5)
 ```
 
 ### Class RandomNumbers
