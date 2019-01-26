@@ -48,7 +48,7 @@ rn = distributions.RandomNumbers(size=1000, dist_type='poisson')
 ```
 ```python
 #Binomial distribution
-rn = distributions.RandomNumbers(size=1000, dist_type='binomial', args={'n_trials': 10, 'p': 0.5})
+rn = distributions.RandomNumbers(size=1000, dist_type='binomial', args={'n_trials': 10, 'prob': 0.5})
 ```
 #### Draw the random numbers depending on distribution specified
 ```python
